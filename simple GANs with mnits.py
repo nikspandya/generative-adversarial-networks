@@ -82,5 +82,5 @@ with tf.Session() as sess:
 
         samples.append(gen_sample)
 
-#print samples if you want
+#print samples
 plt.imshow(samples[0].reshape(28,28))
